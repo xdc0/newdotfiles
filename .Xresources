@@ -1,0 +1,109 @@
+!! Pseudo Transparency:
+!
+!urxvt*transparent: true
+!urxvt*shading: 15
+!
+URxvt.termName: rxvt-unicode-256color
+URxvt.scrollBar: false
+!URxvt.urgentOnBell: true
+!URxvt.visualBell: true
+
+!! Real Transparency:
+
+URxvt.depth: 32
+URxvt.background: rgba:0000/0000/0000/dddd
+!URxvt.background: black
+
+!! Fonts
+!URxvt.font: -*-dina-medium-r-*-*-13-*-*-*-*-*-*-*
+!URxvt.font: -*-monaco-medium-*-*-*-11-*-*-*-*-*-*-*
+!URxvt.boldFont:	-*-monaco-bold-r-*-*-11-*-*-*-*-*-*-*
+!URxvt.italicFont: -*-monaco-medium-*-*-*-11-*-*-*-*-*-*-*
+!URxvt.bolditalicFont: -*-monaco-bold-r-*-*-11-*-*-*-*-*-*-*
+
+URxvt.font: xft:Terminus:pixelsize=13:antialias=false:autohint=false:lcdfilter=lcdlight
+
+!Hinting stuff
+
+Xft.autohint: 0
+Xft.antialias: 0
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft*dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+!! Some Settings
+
+!URxvt.perl-ext-common: default,url-select
+!URxvt.keysym.M-u: perl:url-select:select_next
+!URxvt.url-select.autocopy: true
+!URxvt.url-select.launcher: chromium
+!URxvt.url-select.underline: true
+
+! terminal colors ------------------------------------------------------------
+!*background:  #111111
+!*foreground:  #d4d4d4
+!URxvt*background:  black
+!URxvt*foreground:  white
+!!
+!!!black
+!*color0: #191919
+!*color8: #505050
+!!!red
+!*color1: #e9003c
+!*color9: #ff3c6e
+!!!green
+!*color2: #9ace00
+!*color10: #d7f822
+!!!yellow
+!*color3: #ffcc00
+!*color11: #ffd45f
+!!!blue
+!*color4: #12aed5
+!*color12: #82d0e3
+!!!magenta
+!*color5: #ba823c
+!*color13: #ba9669
+!!!cyan
+!*color6: #5E7175
+!*color14: #A3BABF
+!!!white
+!*color7: #d4d4d4
+!*color15: #ffffff
+
+
+URxvt*foreground: #999999
+URxvt*background: #020202
+
+! black
+URxvt*color0:     #1A1A1A
+URxvt*color8:     #4C4C4C
+
+! red
+URxvt*color1:     #802635
+URxvt*color9:     #B3354C
+
+! green
+URxvt*color2:     #608040
+URxvt*color10:    #4BA65A
+
+! yellow
+URxvt*color3:     #877C43
+URxvt*color11:    #BF9F5F
+
+! blue
+URxvt*color4:     #1C678C
+URxvt*color12:    #3995BF
+
+! magenta
+URxvt*color5:     #684D80
+URxvt*color13:    #A64286
+
+! cyan
+URxvt*color6:     #337373
+URxvt*color14:    #6C98A6
+
+! white
+URxvt*color7:     #808080
+URxvt*color15:    #B3B3B3
